@@ -16,6 +16,8 @@ menu_settings:
       url: '/about'
     - title: 'Contact'
       url: '/contact'
+    - title: 'Resume'
+      url: 'https:://parispm88.com/online-cv'
 
 footer_settings:
   footer_tagline: A sleek, modern Jekyll theme for personal websites.
