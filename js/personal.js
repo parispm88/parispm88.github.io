@@ -148,7 +148,7 @@
 			$('body').removeClass('menu--open');
 		});
 
-
+		document.querySelector('[title="Play"]').click()
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Active links
 
