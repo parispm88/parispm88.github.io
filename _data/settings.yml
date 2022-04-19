@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Parispm88
+  site_title: parispm88
   favicon_image: /images/favicon.svg
 
 header_settings:
@@ -12,12 +12,10 @@ menu_settings:
       url: '/'
     - title: 'BLOG'
       url: '/blog/'
-    - title: 'ABOUT'
-      url: '/about'
-    - title: 'CONTACT'
-      url: '/contact'
     - title: 'RESUME'
       url: '/resume'
+    - title: 'CONTACT'
+      url: '/contact'
 
 footer_settings:
   footer_tagline:
