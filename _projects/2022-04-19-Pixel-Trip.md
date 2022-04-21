@@ -1,9 +1,9 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
-date: 2018-06-30 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/c++_logo.svg'
+title: 'PIXEL TRIP'
+subtitle: 'Free Dominion Studios, LLC.'
+date: 2022-04-19 00:00:00
+description: As the Chief Technology Officer I led my team to complete a few prototypes prior to us releasing our first multiplatform game PIXEL TRIP.
+featured_image: '/images/ue_logo.svg'
 ---
 
 ![](/images/demo/demo-landscape.jpg)
