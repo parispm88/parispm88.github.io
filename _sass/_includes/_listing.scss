@@ -33,7 +33,7 @@
 	&:hover {
 		
 		.post__image {
-			@include scale(1.2);
+			@include scale(0.9);
 		}
 
 		.post__content {
@@ -106,7 +106,7 @@
 	left: 0;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 75%;
 	@include transition(all 1s cubic-bezier(0.2, 0.3, 0, 1));
 }
 

@@ -9,7 +9,7 @@
 	position: relative;
 	margin-top: 10px;
 	padding: 10px 0 65px;
-	width: auto;
+	width: -webkit-fill-available;
 	background: $hero-background-color;
 
 	@include mq(tabletp) {

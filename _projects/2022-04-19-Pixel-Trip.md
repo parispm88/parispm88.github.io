@@ -6,101 +6,25 @@ description: As the Chief Technology Officer I led my team to complete a few pro
 featured_image: '/images/ue_logo.svg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+<iframe src="https://www.youtube.com/embed/H4iqNcK3FmI" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-## Demo content
+###### *The video above is someone playing the game and screen recording it. I unfortunately don't have the original marketing video so this will have to do.*
+___
+# BACKGROUND
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+Free Dominion Studios (FDS), LLC. was a business venture that my brother Shawn and I started together in 2014. We had always wanted to create unique experiences for players. Over the next four years though we learned just how difficult it was to deliver on that idea.
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+## WHO WAS INVOLVED
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Our team at FDS were some of the most talented and brightest individuals I've had the pleasure of working with. Each and everyone of the team members brought valuable skills and contributed far and above what I thought we were going to be able to produce back then. We were a hodge podge of Full Sail Alumni all hungry to create a name for ourselves and get something on our resumes.
+## WHAT I DID
 
-You can create lists:
+I was the Chief Technology Officer so I had to deliver on that and provide the team with the tools needed to succeed. I spent the majority of my time helping actually write systems to include the game modes and various scoring mechanisms. I worked with the team to ensure we were on track and helped overcome any bottlenecks or blockers. I ran all the stand ups and conducted all of the reviews. I helped build our marketing platform to include building a website and social media presence. I contributed to the distribution efforts and production release efforts. I poured countless hours into the project and tried to help design and implement additional features to ensure continuous engagement.
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+## WHAT DID WE MAKE
 
-And:
+We were a scrappy bunch and had many various prototypes that just didn't live up to our expectations. Eventually we all decided we needed to do something with a better scope and shorter turn around. We had a meet up and through enough collaboration we landed on Pixel Trip - a mobile game designed to be fast paced and engaging. We made it simple with the concept of matching colors that make a tetris shape on a grid but only have one correct combination on the grid that the player could swipe to continue to the next challenge. We had a scaling grid system that increased in size and provided intrinsic difficulty just by introducing more tiles. We tracked points for performance and ensured those that couldn't beat the clock were given opportunities to save themselves and potential get a higher score. Overall it was a very simple initial concept that showcased the multiple ways in which we could adjust minor things that had great implications on the gameplay experience without degrading the learned method of engagement.
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
+## WHAT I LEARNED
 
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+I did a lot - but, not enough. The game for what it was - was well recieved and in my opinion it was fun. However, with where we were as a team and the fact that a majority of our members were not programmers it became painfully obvious that we would struggle to implement the complete set of features needed without more time. Time I believe each and everyone of us was just not willing to extend past what was already given. Teams can get burned out and morale is difficult to maintain for an extended period of time without tangible successes. It's not on any one member but rather the team to help focus and scope their efforts into small wins to galvanize everyone to complete their work and contribute to a better product. Having spent at this time about four years of my life I realized it was time for me to redirect my efforts and focus on my military career. Where one was not competing against the other but rather where I could focus on one to eventually lead me to the other. It was around that time I decided to earn my commission and join the newly formed Cyber Branch of the US Army. I was luckily selected and through many years of effort and training have finally made it to a point where I am confident in my skills as a programmer. I'm grateful for the efforts of FDS and to each of the members that worked with my day in and day out. It is what helped me realize what I want to do in life and that's to be a Gameplay Engineer. Nothing brought me more joy than to see someone engaged and excited about software I wrote solely for their entertainment. So, Thank you, Free Dominion Studios - I don't know if I have ever had the chance to formally say that, but I wouldn't be where I am today if not for you.
