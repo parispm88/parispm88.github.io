@@ -12,7 +12,7 @@ featured_image: '/images/ue_logo.svg'
 ___
 # BACKGROUND
 
-Free Dominion Studios (FDS), LLC. was a business venture that my brother Shawn and I started together in 2014. We had always wanted to create unique experiences for players. Over the next four years though we learned just how difficult it was to deliver on that idea.
+Free Dominion Studios (FDS), LLC. was a business venture that my brother Shawn and I started together in 2014. We had always wanted to create unique experiences for players and so we started to do just that.
 
 ## WHO WAS INVOLVED
 
