@@ -1,6 +1,6 @@
 basic_settings:
   site_title: parispm88
-  favicon_image: /images/favicon.svg
+  favicon_image: /images/icon_dark.svg
 
 header_settings:
   logo_image: /images/logo_light.svg
