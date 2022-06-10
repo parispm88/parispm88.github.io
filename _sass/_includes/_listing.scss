@@ -33,11 +33,11 @@
 	&:hover {
 		
 		.post__image {
-			@include scale(0.9);
+			@include scale(1.25);
 		}
 
 		.post__content {
-			@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.1));
+			@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.2));
 		}
 
 		.post__title a {
@@ -106,8 +106,8 @@
 	left: 0;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 75%;
-	@include transition(all 1s cubic-bezier(0.2, 0.3, 0, 1));
+	background-size: 50%;
+	@include transition(all 1s cubic-bezier(0.2, 0.3, 0, 2));
 }
 
 .post__content-wrap {
