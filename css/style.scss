@@ -141,7 +141,9 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
 // - - - - - - - - - - Section styles
 
-@import "_includes/_listing";
+@import "_includes/_blog-listing";
+@import "_includes/_project-listing";
+@import "_includes/_resume-listing";
 @import "_includes/_hero";
 
 

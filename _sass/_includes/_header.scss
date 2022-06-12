@@ -213,6 +213,7 @@
 		padding: 0 0 8px;
 		font-size: $menu-medium;
 		color: $text-dark-color;
+		text-shadow: -2px -2px 0px rgba($text-light-color, 0.95);
 
 		&:hover {
 			color: $accent-color;

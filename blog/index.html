@@ -20,23 +20,23 @@ featured_image: #
 
 </section>
 
-<section class="listing">
+<section class="blog-listing">
 
 	<div class="wrap">
 
-		{% for post in paginator.posts %}
+		{% for blog-post in paginator.posts %}
 
-		<article class="post">
+		<article class="blog-post">
 
-			<div class="post__image-wrap">
-				<div class="post__image" style="background-image: url({{ post.featured_image | relative_url }})"></div>
+			<div class="blog-post__image-wrap">
+				<div class="blog-post__image" style="background-image: url({{ blog-post.featured_image | relative_url }})"></div>
 			</div>
 
-			<div class="post__content-wrap">
-				<div class="post__content">
-					<h2 class="post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-					<p class="post__subtitle">{{ post.subtitle }}</p>
-					<p class="post__description">{{ post.description }}</p>
+			<div class="blog-post__content-wrap">
+				<div class="blog-post__content">
+					<h2 class="blog-post__title"><a href="{{ blog-post.url | relative_url }}">{{ blog-post.title }}</a></h2>
+					<p class="blog-post__subtitle">{{ blog-post.subtitle }}</p>
+					<p class="blog-post__description">{{ blog-post.description }}</p>
 				</div>
 			</div>
 
