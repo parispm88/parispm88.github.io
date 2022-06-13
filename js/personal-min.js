@@ -103,6 +103,22 @@
         a(document).on("click", ".js-menu-toggle", function () {
             a("body").hasClass("menu--open") ? a("body").removeClass("menu--open") : a("body").addClass("menu--open");
         }),
+        a(document).on("click", ".toggle-theme", function () {
+            if (a("body").hasClass("dark-mode"))
+            {
+                a("body").removeClass("dark-mode");
+                localStorage.removeItem("theme");
+                document.documentElement.removeAttribute("dark");
+                document.getElementById("logo").src="/images/logo_light.svg";
+            }
+            else
+            {
+                a("body").addClass("dark-mode");
+                localStorage.setItem("theme", "dark");
+                document.documentElement.setAttribute("dark", "");
+                document.getElementById("logo").src="/images/logo_dark.svg";
+            }
+        }),
         a(document).on("click", ".menu__list__item__link", function () {
             a(".menu").hasClass("menu--open") && a(".menu").removeClass("menu--open");
         }),

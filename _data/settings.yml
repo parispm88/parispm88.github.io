@@ -1,6 +1,7 @@
 basic_settings:
   site_title: parispm88
   favicon_image: /images/icon_dark.svg
+  dark_favicon_image: /images/icon_light.svg
 
 header_settings:
   logo_image: /images/logo_light.svg
@@ -13,7 +14,7 @@ menu_settings:
     - title: 'BLOG'
       url: '/blog/'
     - title: 'RESUME'
-      url: '/resume'
+      url: '/resume/'
     - title: 'CONTACT'
       url: '/contact'
 
@@ -61,16 +62,32 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/parispm88/'
 
 color_settings:
+  logo_image: /images/logo_light.svg
+  logo_width: 512
   background_color: '#ffffff'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
   accent_color: '#00FFFF'
-  border_color: '#dddddd'
+  border_color: '#000000'
   hero_background_color: '#202124'
   hero_text_color: '#ffffff'
   error_color: '#D64541'
+
+dark_color_settings:
+  logo_image: /images/logo_dark.svg
+  logo_width: 512
+  background_color: '#333333'
+  background_alt_color: '#4f4f4f'
+  text_dark_color: '#ABB7B7'
+  text_medium_color: '#6C7A89'
+  text_light_color: '#2A2F36'
+  accent_color: '#00FFFF'
+  border_color: '#111111'
+  hero_background_color: '#FFFFFF'
+  hero_text_color: '#000000'
+  error_color: '#000000'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Tomorrow:300,400,600,700" rel="stylesheet">'

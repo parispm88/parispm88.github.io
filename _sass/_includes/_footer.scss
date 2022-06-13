@@ -10,18 +10,18 @@
 
 .footer {
 	@include transition(all 0.4s ease-in-out 0.8s);
-	padding: 20px 0;
+	padding: 10px 0;
 
 	@include mq(tabletp) {
-		padding: 25px 0;
+		padding: 10px 0;
 	}
 
 	@include mq(tabletl) {
-		padding: 30px 0;
+		padding: 10px 0;
 	}
 
 	@include mq(laptop) {
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 }
 
@@ -35,10 +35,10 @@
 	font-weight: $sitetitle-weight;
 	letter-spacing: $sitetitle-spacing;
 	line-height: 1;
-	color: $text-medium-color;
+	color: var(--text-medium-color);
 
 	&:hover {
-		color: $text-dark-color;
+		color: var(--text-dark-color);
 	}
 
 	@include mq(tabletp) {
@@ -51,40 +51,38 @@
 }
 
 .footer__text {
-	color: $text-light-color;
+	color: var(--text-light-color);
 }
 
 .footer__copyright {
 	display: block;
-	margin-top: 10px;
-	font-size: 13px;
-	color: $text-light-color;
+	margin-top: 4px;
+	font-size: 15px;
+	color: var(--accent-color);
 
 	a {
 		margin-left: 10px;
-		color: $text-light-color;
-		font-weight: $regular-weight;
-
+		color: var(--text-light-color);
 		&:hover {
-			color: $text-medium-color;
+			color: var(--text-medium-color);
 		}
 	}
 
 	span {
-		margin-top: 10px;
+		margin-top: 4px;
 		display: inline-block;
 	}
 
 	@include mq(tabletp) {
 
 		span {
-			margin-top: 0;
+			margin-top: 4px;
 		}
 	}
 }
 
 .footer .socials {
-	margin-top: 25px;
+	margin-top: 0px;
 
 	@include mq(laptop) {
 		position: absolute;
@@ -93,3 +91,54 @@
 		margin-top: 0;
 	}
 }
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 165px repeat(4, .5fr) 10px;
+}
+
+/* Toggle Theme */
+.toggle-theme {
+	position: relative;
+	display: flex;
+	width: 45px;
+	height: 24px;
+	border-radius: 30px;
+	background-color: var(--border-color);
+	user-select: none;
+	cursor: pointer;
+	@media only screen and (max-width: 576px) {
+	  margin-top: 12px;
+	}
+  }
+  
+  .toggle-sun,
+  .toggle-moon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	font-size: 16px;
+	color: #0AA;
+  }
+  
+  .toggle-moon {
+	transform: translateX(1px);
+  }
+  
+  .toggle-thumb {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+	background-color: #2B2B2B;
+	border-radius: 50%;
+	transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .dark-mode {
+	.toggle-thumb {
+	  transform: translateX(21px);
+	}
+  }

@@ -14,21 +14,45 @@
 
 // Colors
 
-$background-color: {{ site.data.settings.color_settings.background_color }};
-$background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
-$border-color: {{ site.data.settings.color_settings.border_color }};
+:root {
+    --logo-image: {{ site.date.settings.color_settings.logo_image }};
+    --logo-width: {{ site.date.settings.color_settings.logo_width }};
 
-$text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
-$text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
-$text-light-color: {{ site.data.settings.color_settings.text_light_color }};
+    --background-color:  {{ site.data.settings.color_settings.background_color }};
+    --background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
+    --border-color: {{ site.data.settings.color_settings.border_color }};
 
-$accent-color: {{ site.data.settings.color_settings.accent_color }};
+    --text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
+    --text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
+    --text-light-color: {{ site.data.settings.color_settings.text_light_color }};
 
-$hero-background-color: {{ site.data.settings.color_settings.hero_background_color }};
-$hero-text-color: {{ site.data.settings.color_settings.hero_text_color }};
+    --accent-color: {{ site.data.settings.color_settings.accent_color }};
 
-$error-color: {{ site.data.settings.color_settings.error_color }};
+    --hero-background-color: {{ site.data.settings.color_settings.hero_background_color }};
+    --hero-text-color: {{ site.data.settings.color_settings.hero_text_color }};
 
+    --error-color: {{ site.data.settings.color_settings.error_color }};
+}
+
+:root[dark] {
+    --logo-image: {{ site.date.settings.dark_color_settings.logo_image }};
+    --logo-width: {{ site.date.settings.dark_color_settings.logo_width }};
+
+    --background-color:  {{ site.data.settings.dark_color_settings.background_color }};
+    --background-alt-color: {{ site.data.settings.dark_color_settings.background_alt_color }};
+    --border-color: {{ site.data.settings.dark_color_settings.border_color }};
+
+    --text-dark-color: {{ site.data.settings.dark_color_settings.text_dark_color }};
+    --text-medium-color: {{ site.data.settings.dark_color_settings.text_medium_color }};
+    --text-light-color: {{ site.data.settings.dark_color_settings.text_light_color }};
+
+    --accent-color: {{ site.data.settings.dark_color_settings.accent_color }};
+
+    --hero-background-color: {{ site.data.settings.dark_color_settings.hero_background_color }};
+    --hero-text-color: {{ site.data.settings.dark_color_settings.hero_text_color }};
+
+    --error-color: {{ site.data.settings.dark_color_settings.error_color }};
+}
 
 // Fonts
 

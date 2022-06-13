@@ -10,7 +10,7 @@
 	margin-top: 10px;
 	padding: 10px 0 65px;
 	width: 100%;
-	background: $hero-background-color;
+	background: var(--hero-background-color);
 
 	@include mq(tabletp) {
 		margin-top: 0px;
@@ -23,7 +23,7 @@
 	}
 
 	h1 {
-		color: $hero-text-color;
+		color: var(--hero-text-color);
 
 		@include mq(tabletp) {
 			white-space: pre-line;
@@ -31,7 +31,7 @@
 	}
 
 	p {
-		color: rgba($hero-text-color, 0.8);
+		color: rgba(var(--hero-text-color), 0.8);
 
 		@include mq(tabletp) {
 			margin-top: 10px;
@@ -55,11 +55,11 @@
 	}
 
 	.socials__item__link {
-		background: rgba($hero-text-color, 0.8);
-		color: $hero-background-color;
+		background: rgba(var(--hero-text-color), 0.8);
+		color: var(--hero-background-color);
 
 		&:hover {
-			background: $hero-text-color;
+			background: var(--hero-text-color);
 		}
 	}
 }
@@ -81,5 +81,5 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($hero-background-color, $overlay-opacity);
+	background: rgba(var(--hero-background-color), $overlay-opacity);
 }

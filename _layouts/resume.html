@@ -3,31 +3,36 @@ layout: default
 title: RESUME
 ---
 
-<section class="hero resume-hero--single">
+<section class="hero hero--single">
 
-	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
-		<div class="hero__overlay"></div>
-	</div>
+    <div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
+        <div class="hero__overlay"></div>
+    </div>
 
-	<div class="wrap">
+    <div class="wrap">
 
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
+        <h1>RESUME</h1>
 
-	</div>
+    </div>
 
 </section>
 
 <section class="resume-single">
 
-	<div class="wrap">
+    <div class="wrap">
 
-		<article class="resume-single-post">
+        <article class="resume-single-post">
 
-			{{ page.content }}
+            <head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width">
+            </head>
 
-		</article>
+            <body>
+                <object data="RESUME.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
+            </body>
+        </article>
 
-	</div>
+    </div>
 
 </section>

@@ -1,6 +1,6 @@
 ---
 title: CONTACT ME
-subtitle: Feel free to reach out to me anytime. I'm happy to answer any questions or just to connect.
+subtitle: Contact form below if you have any questions or want to connect.
 description: #
 featured_image: #
 ---

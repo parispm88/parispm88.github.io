@@ -14,7 +14,7 @@
 .resume-single {
 	margin-top: 0;
 	padding-bottom: 40px;
-	background: $background-alt-color;
+	background: var(--background-alt-color);
 
 	@include mq(tabletp) {
 		padding-bottom: 60px;
@@ -28,7 +28,7 @@
 .resume-single-post {
 	position: relative;
 	margin-top: -40px;
-	background: $background-color;
+	background: var(--background-color);
 	@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.05));
 
 	@include mq(phonel) {
@@ -79,7 +79,7 @@
 
 	p a {
 		font-weight: $bold-weight;
-		border-bottom: 2px solid $accent-color;
+		border-bottom: 2px solid var(--accent-color);
 	}
 
 	p .button {
@@ -144,11 +144,11 @@
 
 	table {
 		min-width: 600px;
-		border: 2px solid $text-dark-color;
+		border: 2px solid var(--text-dark-color);
 
 		thead {
-			background: $text-dark-color;
-			color: $background-color;
+			background: var(--text-dark-color);
+			color: var(--background-color);
 			text-align: left;
 			font-weight: $bold-weight;
 
@@ -175,7 +175,7 @@
 		tr {
 
 			&:nth-child(2n) {
-				background: $background-alt-color;
+				background: var(--background-alt-color);
 			}
 		}
 	}
@@ -188,14 +188,14 @@
 		border-radius: 100%;
 		border-bottom: none;
 		padding: 1px 3px;
-		background: $background-alt-color;
+		background: var(--background-alt-color);
 		font-size: 10px;
 		text-align: center;
-		color: $text-light-color;
+		color: var(--text-light-color);
 
 		&:hover {
-			background: $text-light-color;
-			color: $background-color;
+			background: var(--text-light-color);
+			color: var(--background-color);
 		}
 	}
 
@@ -229,11 +229,11 @@
 					border-radius: 100%;
 					border-bottom: none;
 					padding: 2px 3px;
-					background: $background-alt-color;
+					background: var(--background-alt-color);
 					font-size: 11px;
 					font-weight: $bold-weight;
 					text-align: center;
-					color: $text-light-color;
+					color: var(--text-light-color);
 				}
 				
 				p {

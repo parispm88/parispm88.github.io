@@ -4,8 +4,10 @@
 
 		{% if site.data.settings.header_settings.logo_image %}
 		<a href="{{ site.baseurl }}/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
+			<img id="logo" class="header__logo__image" src="{{ site.data.settings.color_settings.logo_image | relative_url }}" alt="original logo">
 		</a>
+		{% include socials.html %}
+		
 		{% else %}
 		<a href="{{ site.baseurl }}/" class="header__title">
 			{{ site.data.settings.basic_settings.site_title }}
@@ -27,7 +29,7 @@
 				</ul>
 			</div>
 		</div>
-
+		
 	</div>
 
 </header>

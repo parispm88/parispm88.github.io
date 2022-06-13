@@ -5,14 +5,15 @@ date: 2022-04-17 23:18:00
 description: Who am I? What have I done? What do I want to do? This is a quick blog post to provide a bit of background about myself; what I've been up to for the last ten years or so, and what I plan on doing from here on out.
 featured_image: '/images/pat_and_shawn_2016.jpg'
 ---
-<div class="gallery" data-columns="2" >
+<div class="gallery" data-columns="1" >
 	<img src="/images/pat_and_shawn_2012.jpg">
 	<img src="/images/pat_and_shawn_2016.jpg">
 </div>
+___
 
 ## TLDR
 
-Shawn and I started a company called Free Dominion Studios, LLC. after college while I was on active duty in the US Army to make Video Games. We made one that fully released on Android and iOS called Pixel Trip. It received a lot of good reviews but ultimately wasn't succesful enough and we shutdown Free Dominion Studios, LLC. to reprioritize our full-time jobs.
+Shawn and I started a company called Free Dominion Studios, LLC. after college while I was on active duty in the US Army to make Video Games. We made one that released on Android and iOS called Pixel Trip. It received a lot of good reviews but ultimately wasn't succesful enough and we shutdown Free Dominion Studios, LLC. to reprioritize our full-time jobs. After ten years in the Army I've decided to transition into the civilian sector and begin a career in the Games Industry.
 
 ## PARIS BROTHERS
 

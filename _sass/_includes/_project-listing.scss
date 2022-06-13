@@ -27,7 +27,7 @@
 
 	@include mq(tabletl) {
 		margin-top: 60px;
-		background: $background-alt-color;
+		background: var(--background-alt-color);
 	}
 
 	&:hover {
@@ -41,7 +41,7 @@
 		}
 
 		.post__title a {
-			color: $accent-color;
+			color: var(--accent-color);
 		}
 	}
 
@@ -81,7 +81,7 @@
 		margin: 0;
 		padding-bottom: 90%;
 		overflow: hidden;
-		background-color: $background-alt-color;
+		background-color: var(--background-alt-color);
 	}
 	
 	@include mq(tabletl) {
@@ -115,7 +115,7 @@
 	width: 100%;
 	position: relative;
 	padding: 0 0px 0px;
-	background: $background-alt-color;
+	background: var(--background-alt-color);
 
 	@include mq(tabletp) {
 		padding: 0 0px 0px;
@@ -132,7 +132,7 @@
 	position: relative;
 	margin-top: -20px;
 	padding: 10px;
-	background: $background-color;
+	background: var(--background-color);
 	@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.05));
 	@include transition(all 0.4s cubic-bezier(0.2, 0.3, 0, 1));
 
@@ -157,7 +157,7 @@
 .post__subtitle {
 	margin-top: 5px;
 	font-size: 15px;
-	color: $accent-color;
+	color: var(--accent-color);
 }
 
 .post__description {
@@ -192,17 +192,17 @@
 	}
 
 	&:hover {
-		background: $accent-color;
+		background: var(--accent-color);
 	}
 }
 
 .pagination__prev {
 	float: left;
-	background: $text-medium-color;
+	background: var(--text-medium-color);
 }
 
 .pagination__next {
 	float: right;
 	text-align: right;
-	background: $text-dark-color;
+	background: var(--text-dark-color);
 }

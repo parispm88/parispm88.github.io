@@ -1,16 +1,23 @@
 <footer class="footer">
 
 	<div class="wrap">
-		<iframe style="border-radius:1px" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator&theme=0" width="auto" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+	
+		<div class="grid-container">
 		
-		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
+			<div class="grid-child footer__copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a> PARISPM88</div>
+			
+			<div class="toggle-theme">
+				<div class="toggle-moon"><i class="ion ion-ios-moon"></i></div>
+				<div class="toggle-sun"><i class="ion ion-ios-sunny"></i></div>
+				<div class="toggle-thumb"></div>
+			</div>
 
-		<div class="footer__copyright">
-			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+			<iframe class="grid-child" style="border-radius:1px" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator&theme=0" width="auto" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen;"></iframe>
+
+			{% include socials.html %}
+
 		</div>
-
-		{% include socials.html %}
-
+		
 	</div>
 
 </footer>
