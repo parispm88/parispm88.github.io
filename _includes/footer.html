@@ -1,10 +1,14 @@
 <footer class="footer">
 
 	<div class="wrap">
-	
-		<div class="grid-container">
 		
-			<div class="grid-child copyright" style="color:#0FF">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a> PARISPM88</div>
+		<iframe style="border-radius:1px" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator&theme=0" padding-bottom="10px" width="auto" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		
+		{% include socials.html %}
+
+		<div class="grid-container">
+
+			<div class="grid-child footer__copyright" style="color:#0FF">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a> PARISPM88</div>
 			
 			<div class="grid-child toggle-theme">
 				<div class="toggle-moon"><i class="ion ion-ios-moon"></i></div>
@@ -12,12 +16,10 @@
 				<div class="toggle-thumb"></div>
 			</div>
 
-			<iframe class="grid-child" style="border-radius:1px" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator&theme=0" width="auto" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-			{% include socials.html %}
-
 		</div>
 		
+		
+
 	</div>
 
 </footer>

@@ -20,6 +20,7 @@
 
     --background-color:  {{ site.data.settings.color_settings.background_color }};
     --background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
+    --social-alt-color: {{site.data.settings.color_settings.social_alt_color}};
     --border-color: {{ site.data.settings.color_settings.border_color }};
 
     --text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
@@ -40,6 +41,7 @@
 
     --background-color:  {{ site.data.settings.dark_color_settings.background_color }};
     --background-alt-color: {{ site.data.settings.dark_color_settings.background_alt_color }};
+    --social-alt-color: {{site.data.settings.dark_color_settings.social_alt_color}};
     --border-color: {{ site.data.settings.dark_color_settings.border_color }};
 
     --text-dark-color: {{ site.data.settings.dark_color_settings.text_dark_color }};

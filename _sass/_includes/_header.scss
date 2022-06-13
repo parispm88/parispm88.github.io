@@ -200,10 +200,10 @@
 }
 
 .menu__list__item__link {
-	font-size: $menu-small;
+	font-size: $menu-large;
 	font-weight: $menu-weight;
 	color: var(--text-dark-color);
-	padding: 10px 0;
+	padding: 20px 0;
 
 	&:hover {
 		color: var(--accent-color);
