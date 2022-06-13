@@ -104,7 +104,7 @@ font_settings:
   menu:
     small_size: 20
     medium_size: 25
-    large_size: 30
+    large_size: 35
     weight: 600
     letter_spacing: 0
   h1:

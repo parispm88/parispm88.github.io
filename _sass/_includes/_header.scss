@@ -20,18 +20,6 @@
 	}
 }
 
-body {
-	--nav-logo: url(/images/logo_light.svg);
-}
-
-body[data-theme="dark"] {
-	--nav-logo: url(/images/logo_dark.svg);
-}
-
-.nav_logo {
-	content: var(--nav-logo);
-}
-
 .header__logo {
 	display: block;
 	width: $logo-width;
@@ -45,18 +33,8 @@ body[data-theme="dark"] {
 .header__logo__img {
 	width: 100%;
 	height: auto;
-	background: url(/images/logo_light.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
-.dark-mode .header__logo__img {
-	width: 100%;
-	height: auto;
-	background: url(/images/logo_dark.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
 
 .header__title {
 	font-size: $sitetitle-small;
@@ -236,6 +214,7 @@ body[data-theme="dark"] {
 		padding: 0 0 8px;
 		font-size: $menu-medium;
 		color: var(--text-dark-color);
+
 		text-shadow: -2px -2px 0px var(--text-light-color);
 
 		&:hover {
