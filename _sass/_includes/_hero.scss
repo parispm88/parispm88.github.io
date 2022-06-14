@@ -70,6 +70,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
+	background: rgba(var(--hero-background-color), 0);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -81,5 +82,5 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(var(--hero-background-color), $overlay-opacity);
+	background: rgba(var(--hero-background-color), 0);
 }
