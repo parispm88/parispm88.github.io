@@ -61,4 +61,4 @@ However, I'm more of a video tutorial kind of guy so here's what I used:
 
 Seriously though after all of the tutorials and some time spent looking over each of the benefits of both [GitHub Pages](https://pages.github.com/) and [Jekyll](https://www.jekyllrb.com). Head over to [GitHub](https://www.github.com) and start making your site. After a few days messing around with the theme I purchased I was able to put this site together (which still needs a few adjustments). If you'd like to see everything I did to include all the code I added (this was a just get it working mentality) you can head over to my repo here: [GITHUB](https://github.com/parispm88/parispm88.github.io)
 
-Send me an email through my [CONTACT ME](https://www.parispm88.com/contact) page - let me know how I did or tell me how dumb I am 😄.
+Send me an email through my [CONTACT ME](https://www.parispm88.com/contact) page - let me know how I did 😄.
